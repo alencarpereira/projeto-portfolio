@@ -42,6 +42,7 @@ ul {
     display: flex;
     gap: 50px; /* Para  separar os itens da lista */
     list-style: none; /*remove a bolinha da lista*/
+    font-size: 18px;
 }
 
 .principal {
