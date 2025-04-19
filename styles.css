@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,46 +16,85 @@ body {
     padding-left: 50px;
 }
 
+.secao a::after {
+    display: none;
+}
+
 header {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding: 30px;
     margin-left: 50px;
     cursor: pointer;
 }
+
 /* Links com cor personalizada */
 a {
-    color: #fff; /* Cor padrão do link */
+    color: #fff;
+    /* Cor padrão do link */
     text-decoration: none;
-    transition: color 0.3s ease; /* Transição suave na cor */
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease, padding-bottom 0.3s ease;
+    /* Transição suave na cor */
 }
 
 /* Hover - cor cinza e transição mais lenta */
 a:hover {
-    color: #c8e8f5; /* Cor cinza */
-    text-decoration: none;
-    transition: color 0.6s ease; /* Aumento no tempo da transição para tornar o efeito mais lento */
+    color: #c8e8f5;
+    padding-bottom: 10px;
+}
+
+/* Efeito de Sublinha */
+a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #4d7cfe;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+a:hover::after {
+    transform: scaleX(1);
+    /* Expande a linha quando passa o mouse */
+}
+
+/* Estilo para links ativos (se estiver em uma seção ativa) */
+a.active {
+    color: #4d7cfe;
+    padding-bottom: 10px;
+    /* Dá o mesmo efeito de hover quando a seção estiver ativa */
 }
 
 ul {
     display: flex;
-    gap: 50px; /* Para  separar os itens da lista */
-    list-style: none; /*remove a bolinha da lista*/
+    gap: 50px;
+    /* Para  separar os itens da lista */
+    list-style: none;
+    /*remove a bolinha da lista*/
     font-size: 18px;
 }
 
 .principal {
     display: flex;
     align-items: center;
-    margin-left: 30px; /* Para deslocar o texto para a direita */
-    min-height: 85vh; /* Para garantir que o conteúdo principal ocupe pelo menos 85% da altura da tela */
+    margin-left: 30px;
+    /* Para deslocar o texto para a direita */
+    min-height: 85vh;
+    /* Para garantir que o conteúdo principal ocupe pelo menos 85% da altura da tela */
 }
+
 .principal h1 {
     font-size: 80px;
     line-height: 1.1;
     margin-bottom: 20px;
-    letter-spacing: -3px; /* Para adicionar espaçamento entre as letras */
+    letter-spacing: -3px;
+    /* Para adicionar espaçamento entre as letras */
 }
 
 .principal h1 span {
@@ -63,15 +102,33 @@ ul {
 }
 
 .principal p {
-    font-size: 20px; /* Tamanho da fonte */
-    line-height: 1.8; /* Aumenta o espaçamento entre linhas */
-    margin-bottom: 40px; /* Espaço abaixo do parágrafo */
-    max-width: 964px; /* Largura máxima */
-    color: #bbb; /* Cor suave */
-    text-align: justify; /* Alinha o texto de forma mais fluída */
-    margin-left: auto; /* Alinha o conteúdo ao centro */
-    margin-right: auto; /* Alinha o conteúdo ao centro */
-    letter-spacing: 0.5px; /* Leve espaçamento entre as letras */
+    font-size: 20px;
+    /* Tamanho da fonte */
+    line-height: 1.8;
+    /* Aumenta o espaçamento entre linhas */
+    margin-bottom: 40px;
+    /* Espaço abaixo do parágrafo */
+    max-width: 964px;
+    /* Largura máxima */
+    color: #bbb;
+    /* Cor suave */
+    text-align: justify;
+    /* Alinha o texto de forma mais fluída */
+    margin-left: auto;
+    /* Alinha o conteúdo ao centro */
+    margin-right: auto;
+    /* Alinha o conteúdo ao centro */
+    letter-spacing: 0.5px;
+    /* Leve espaçamento entre as letras */
+}
+
+.botoes-home {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: start;
+    /* ou center se preferir centralizado */
+    margin-top: 30px;
 }
 
 .botao {
@@ -86,7 +143,8 @@ ul {
 .titulo-secao {
     font-size: 42px;
     margin-bottom: 60px;
-    position: relative; /* Para posicionar o título de forma relativa a sua posição normal */
+    position: relative;
+    /* Para posicionar o título de forma relativa a sua posição normal */
 }
 
 .titulo-secao::after {
@@ -109,7 +167,8 @@ ul {
     background-color: #161616;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden; /* Para garantir que o conteúdo não ultrapasse os limites do card */
+    overflow: hidden;
+    /* Para garantir que o conteúdo não ultrapasse os limites do card */
     padding: 20px;
 }
 
@@ -117,7 +176,8 @@ ul {
 .img-projeto {
     width: 100%;
     height: 200px;
-    object-fit: cover; /* Para garantir que a imagem ocupe todo o espaço disponível */
+    object-fit: cover;
+    /* Para garantir que a imagem ocupe todo o espaço disponível */
     margin-bottom: 20px;
 }
 
@@ -133,9 +193,10 @@ ul {
     color: #bbb;
     margin-bottom: 20px;
 }
+
 .info-projeto a {
-  color: #4d7cfe;
-  font-weight: 500;
+    color: #4d7cfe;
+    font-weight: 500;
 }
 
 .sobre {
@@ -163,7 +224,8 @@ ul {
 
 .habilidades {
     display: flex;
-    flex-wrap: wrap; /* Para quebrar a linha quando necessário */
+    flex-wrap: wrap;
+    /* Para quebrar a linha quando necessário */
     margin-top: 20px;
 }
 
@@ -188,15 +250,15 @@ ul {
 }
 
 .botao-contato {
-   display: flex; 
-   align-items: center;
-   gap: 10px;
-   padding: 15px 25px;
-   border-radius: 10px;
-   font-weight: 500;
-   min-width: 160px;
-   text-decoration: none;
-   color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: 500;
+    min-width: 160px;
+    text-decoration: none;
+    color: white;
 }
 
 .whatsapp {
@@ -223,12 +285,14 @@ footer {
 
 .efeito-cursor {
     cursor: pointer;
-    transition: transform 0.2s ease-in-out; /* Efeito de elevação ao passar o mouse */
+    transition: transform 0.2s ease-in-out;
+    /* Efeito de elevação ao passar o mouse */
 }
 
 
 .efeito-cursor:hover {
-    transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+    transform: translateY(-5px);
+    /* Efeito de elevação ao passar o mouse */
 }
 
 .cursor {
@@ -238,8 +302,11 @@ footer {
     height: 25px;
     border-radius: 50%;
     background-color: rgba(77, 124, 254, 0.2);
-    z-index: 99; /* Para garantir que o cursor esteja acima de outros elementos */
-    transform: translate(-50%, -50%); /* Para centralizar o cursor */
+    z-index: 99;
+    /* Para garantir que o cursor esteja acima de outros elementos */
+    transform: translate(-50%, -50%);
+    /* Para centralizar o cursor */
+    transition: transform 0.08s ease-out;
 }
 
 img {
@@ -247,9 +314,30 @@ img {
     height: auto;
 }
 
+.voltar-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4d7cfe;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: none;
+    /* Inicialmente escondido */
+    transition: opacity 0.5s ease, background-color 0.5s ease
+}
+
+.voltar-topo:hover {
+    background-color: #365ac4;
+}
+
+
 /* Responsividade */
 @media (max-width: 768px) {
-    
+
     header {
         padding: 15px;
         display: none;
@@ -257,7 +345,8 @@ img {
 
     ul {
         gap: 20px;
-        justify-content: center; /* Para alinhar os itens à esquerda */
+        justify-content: center;
+        /* Para alinhar os itens à esquerda */
         padding: 0;
     }
 
@@ -276,17 +365,33 @@ img {
         max-width: 100%;
         margin-bottom: 20px;
     }
-    
-.efeito-cursor {
-    cursor: pointer;
-    transition: transform 0.2s ease-in-out;
-    margin-top: 80px;
-    margin-bottom: -18px;
-}
 
-    .principal  h1{
+    .efeito-cursor {
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+        margin-top: 80px;
+        margin-bottom: -18px;
+    }
+
+    .principal h1 {
         font-size: 30px;
     }
+
+    .botoes-home {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        /* Espaço entre os botões */
+    }
+
+    .botoes-home a {
+        min-width: 200px;
+        font-size: 16px;
+        padding: 12px 20px;
+        text-align: center;
+    }
+
     .secao {
         padding: 40px 20px;
     }
@@ -295,6 +400,7 @@ img {
         grid-template-columns: 1fr;
         padding: 20px;
     }
+
     .img-sobre {
         height: auto;
     }
@@ -302,31 +408,41 @@ img {
 
     /* Ajustes na grade de projetos */
     .grade-projetos {
-        grid-template-columns: 1fr; /* Coloca os projetos em uma coluna */
+        grid-template-columns: 1fr;
+        /* Coloca os projetos em uma coluna */
     }
 
     /* Ajuste nos cards de projetos */
     .card-projeto {
-        padding: 15px; /* Reduz o padding */
+        padding: 15px;
+        /* Reduz o padding */
     }
 
     .img-projeto {
-        height: 180px; /* Ajusta a altura das imagens para telas menores */
+        height: 180px;
+        /* Ajusta a altura das imagens para telas menores */
     }
 
     .info-projeto p {
-        font-size: 14px; /* Font menor para dispositivos móveis */
+        font-size: 14px;
+        /* Font menor para dispositivos móveis */
     }
 
-        /* Desabilitar o efeito do cursor em dispositivos com telas menores */
-        .cursor {
-            display: none; /* Oculta o elemento do cursor */
-        }
-    
-        .efeito-cursor {
-            cursor: default; /* Desativa qualquer efeito de cursor nos elementos */
-        }
+    /* Desabilitar o efeito do cursor em dispositivos com telas menores */
+    .cursor {
+        display: none;
+        /* Oculta o elemento do cursor */
+    }
 
+    .efeito-cursor {
+        cursor: default;
+        /* Desativa qualquer efeito de cursor nos elementos */
+    }
 
+}
 
+@media (max-width: 1024px) {
+    .principal h1 {
+        font-size: 50px;
+    }
 }
