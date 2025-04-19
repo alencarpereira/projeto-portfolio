@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link para Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Portfólio | Alencar Pereira</title>
 </head>
@@ -35,11 +37,13 @@
             <h1>Olá, eu sou <span>Alencar Pereira</span>.</h1>
             <p> Sou um desenvolvedor apaixonado por criar soluções digitais que não só funcionam,
                 mas também encantam. Tenho como missão transformar ideias em experiências interativas e acessíveis.
-                Combinando habilidades em HTML, CSS, JavaScript e React.js, trabalho para entregar interfaces intuitivas
+                Combinando habilidades em HTML, CSS, JavaScript, trabalho para entregar interfaces intuitivas
                 e soluções inovadoras que superam as expectativas. Estou sempre em busca de novos desafios para expandir
                 meu conhecimento e impactar positivamente o mundo digital.</p>
-
-            <a href="#projeto" class="botao efeito-cursor">Ver Projetos</a>
+            <div class="botoes-home">
+                <a href="#projeto" class="botao efeito-cursor">Ver Projetos</a>
+                <a href="./img/alencar.pdf" class="botao efeito-cursor" download>Baixar Currículo</a>
+            </div>
         </div>
     </section>
 
@@ -54,14 +58,14 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil praesentium animi at doloremque
                         aut ab error explicabo corrupti. Illo corrupti accusantium cum ratione repellat dolorem eius,
                         perspiciatis excepturi aliquid expedita.</p>
-                    <a href="https://alencarpereira.github.io/Projeto-Carros/" target="_blank">Ver Projeto →</a>
+                    <a href="https://alencarpereira.github.io/parking-project/" target="_blank">Ver Projeto →</a>
                 </div>
             </div>
 
             <div class="card-projeto">
                 <img class="img-projeto efeito-cursor" src="./img/pet.png" alt="foto de uma mulher e um cachorro">
                 <div class="info-projeto">
-                    <h3>Projeto Vendas de Carros</h3>
+                    <h3>Projeto PetShop</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil praesentium animi at doloremque
                         aut ab error explicabo corrupti. Illo corrupti accusantium cum ratione repellat dolorem eius,
                         perspiciatis excepturi aliquid expedita.</p>
@@ -70,7 +74,7 @@
             </div>
 
             <div class="card-projeto">
-                <img class="img-projeto efeito-cursor" src="./img/marioPortifolio.png" alt="ogo do mario">
+                <img class="img-projeto efeito-cursor" src="./img/marioPortifolio.png" alt="logo do mario">
                 <div class="info-projeto">
                     <h3>Projeto Mario Bros</h3>
                     <p>O projeto Mario Bros é um site que oferece serviços de hidráulica, como consertos e manutenção de
@@ -113,7 +117,7 @@
 
             <div class="conteudo-sobre">
                 <h2>Desenvolvedor com paixão por criar soluções digitais</h2>
-                <p>Olá me chamo Alencar Pereira da Silva, tenho 38 anos, me encontro em fase de transição de carreira,
+                <p>Olá me chamo Alencar Pereira da Silva, tenho 39 anos, me encontro em fase de transição de carreira,
                     venho da área de panificação e estou a procura de uma oportunidade na área de desenvolvimento Web ou
                     Programação. Sempre fui fascinado pela forma como a tecnologia transforma o mundo e decidi buscar
                     uma nova oportunidade na área para me desafiar e contribuir para soluções inovadoras.</p>
@@ -127,7 +131,6 @@
                     <span class="tag-habilidades">HTML5</span>
                     <span class="tag-habilidades">CSS</span>
                     <span class="tag-habilidades">JavaScript</span>
-                    <span class="tag-habilidades">React.js</span>
                 </div>
             </div>
         </div>
@@ -139,20 +142,20 @@
         <div class="botoes-contato">
             <a href="https://api.whatsapp.com/send?phone=5511989095353&text=Ol%C3%A1,%20fala%20comigo" target="_blank"
                 class="botao-contato whatsapp efeito-cursor">
-
+                <i class="fab fa-whatsapp"></i>
                 <span>whatsapp</span>
             </a>
             <a href="mailto:alencarpereira1120@gmail.com" target="_blank" class="botao-contato email efeito-cursor">
-
+                <i class="fas fa-envelope"></i>
                 <span>Email</span>
             </a>
             <a href="https://www.linkedin.com/in/alencar-pereira-da-silva/" target="_blank"
                 class="botao-contato linkedin efeito-cursor">
-
+                <i class="fab fa-linkedin"></i>
                 <span>Linkedin</span>
             </a>
             <a href="https://github.com/alencarpereira" target="_blank" class="botao-contato github efeito-cursor">
-
+                <i class="fab fa-github"></i>
                 <span>GitHub</span>
             </a>
         </div>
@@ -163,6 +166,10 @@
     </footer>
 
     <div class="cursor"></div>
+
+    <button id="voltar-topo" class="voltar-topo">
+        ⬆️ Voltar ao topo
+    </button>
 </body>
 <script src="./script.js"></script>
 
