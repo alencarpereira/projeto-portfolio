@@ -36,8 +36,8 @@
 <h2>📞 Contatos</h2>
 <ul>
     <li><strong>E-mail:</strong> <a href="https://alencarpereira1120@gmail.com">alencarpereira1120@gmail.com</a></li>
-    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank">seu-linkedin</a></li>
-    <li><strong>GitHub:</strong> <a href="https://github.com/seu-github" target="_blank">seu-github</a></li>
+    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/alencar-pereira-da-silva" target="_blank">www.linkedin.com/in/alencar-pereira-da-silva</a></li>
+    <li><strong>GitHub:</strong> <a href="https://github.com/alencarpereira" target="_blank">https://github.com/alencarpereira</a></li>
 </ul>
 
 
