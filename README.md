@@ -17,4 +17,10 @@
     <li><strong>Botão "Voltar ao Topo":</strong> Facilita a navegação.</li>
     <li><strong>Links interativos:</strong> Efeito de destaque ao passar o mouse.</li>
 </ul>
+<br>
+
+<p align="center" >
+<img src=""   height="500px"/>
+<img  src="https://github.com/alencarpereira/easy-shopping/blob/main/img/shopping%20(2).png?raw=true" height="500px">
+</p>
 
