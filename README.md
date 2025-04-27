@@ -1,7 +1,7 @@
 <h1 align="center">📄 Meu Portfólio</h1>
 <br>
 
-<p>Bem-vindo ao meu portfólio! Aqui você poderá explorar alguns dos meus projetos mais recentes, desenvolvidos com as tecnologias mais atuais. O objetivo deste repositório é compartilhar minhas habilidades e experiências como desenvolvedor, destacando meu trabalho nas áreas de desenvolvimento web, design responsivo e interatividade. Sinta-se à vontade para explorar e conhecer mais sobre meu trabalho!</p>
+<p>Bem-vindo ao meu portfólio! Aqui, você poderá explorar alguns dos meus projetos mais recentes, desenvolvidos com as tecnologias mais atuais. O objetivo deste repositório é compartilhar minhas habilidades e experiências como desenvolvedor, destacando meu trabalho em desenvolvimento web, design responsivo e interatividade. Sinta-se à vontade para explorar e conhecer mais sobre o meu trabalho!</p>
 <br>
 
 <h2>🛠 Tecnologias Utilizadas</h2>
