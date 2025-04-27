@@ -11,6 +11,12 @@
 <p><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="github logo" /> Controle de versões e colaboração.</p>
 <br>
 
+<p align="center" >
+<img src="https://github.com/alencarpereira/projeto-portfolio/blob/main/img/portifolio.png?raw=true" width="70%" height="500p"/>
+<img  src="https://github.com/alencarpereira/projeto-portfolio/blob/main/img/portfolio-celular.png?raw=true" height="500p">
+</p>
+<br>
+
 <h2>💻 Funcionalidades</h2>
 <ul>
     <li><strong>Cursor customizado:</strong> Efeito de cursor interativo.</li>
@@ -19,8 +25,23 @@
 </ul>
 <br>
 
-<p align="center" >
-<img src="https://github.com/alencarpereira/projeto-portfolio/blob/main/img/portifolio.png?raw=true"   height="500px"/>
-<img  src="https://github.com/alencarpereira/projeto-portfolio/blob/main/img/portfolio-celular.png?raw=true" height="500px">
-</p>
+<h2>📂 Como Executar</h2>
+<ol>
+    <li>Clone o repositório:</li>
+    <pre><code>git clone https://github.com/seu-usuario/seu-repositorio.git</code></pre>
+    <li>Abra o arquivo <code>index.html</code> no seu navegador.</li>
+</ol>
+<br>
+
+<h2>📞 Contatos</h2>
+<ul>
+    <li><strong>E-mail:</strong> <a href="alencarpereira1120@gmail.com">alencarpereira1120@gmail.com</a></li>
+    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank">seu-linkedin</a></li>
+    <li><strong>GitHub:</strong> <a href="https://github.com/seu-github" target="_blank">seu-github</a></li>
+</ul>
+
+
+
+
+
 
