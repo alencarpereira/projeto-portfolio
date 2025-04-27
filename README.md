@@ -12,7 +12,7 @@
 <br>
 
 <p align="center" >
-<img src="https://github.com/alencarpereira/projeto-portfolio/blob/main/img/portifolio.png?raw=true" width="70%" height="500p"/>
+<img src="https://github.com/alencarpereira/projeto-portfolio/blob/main/img/portifolio.png?raw=true" width="70%" height="500px"/>
 <img  src="https://github.com/alencarpereira/projeto-portfolio/blob/main/img/portfolio-celular.png?raw=true" height="500px">
 </p>
 <br>
