@@ -39,6 +39,10 @@
     <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/alencar-pereira-da-silva" target="_blank">www.linkedin.com/in/alencar-pereira-da-silva</a></li>
     <li><strong>GitHub:</strong> <a href="https://github.com/alencarpereira" target="_blank">https://github.com/alencarpereira</a></li>
 </ul>
+<br>
+
+<h2>🌐 Visite meu Site</h2>
+<p>Para mais informações e visualização de projetos, acesse o meu <a href="https://www.seusite.com" target="_blank">site pessoal</a>.</p>
 
 
 
