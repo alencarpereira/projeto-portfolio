@@ -21,6 +21,6 @@
 
 <p align="center" >
 <img src="https://github.com/alencarpereira/projeto-portfolio/blob/main/img/portifolio.png?raw=true"   height="500px"/>
-<img  src="https://github.com/alencarpereira/easy-shopping/blob/main/img/shopping%20(2).png?raw=true" height="500px">
+<img  src="https://github.com/alencarpereira/projeto-portfolio/blob/main/img/portfolio-celular.png?raw=true" height="500px">
 </p>
 
