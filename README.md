@@ -42,7 +42,7 @@
 <br>
 
 <h2>🌐 Visite meu Site</h2>
-<p>Para mais informações e visualização de projetos, acesse o meu <a href="https://www.seusite.com" target="_blank">site pessoal</a>.</p>
+<p>Para mais informações e visualização de projetos, acesse o meu <a href="https://alencarpereira.github.io/projeto-portfolio/" target="_blank">site pessoal</a>.</p>
 
 
 
